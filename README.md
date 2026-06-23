@@ -1,8 +1,8 @@
-. Hotel Management System
+# Hotel Management System
    Django-based hotel management system with room booking functionality.
 
    
-. Features
+# Features
    - Room management
    - Customer management
    - Booking system (Add, Edit, Delete)
@@ -10,7 +10,7 @@
    - Room availability tracking
 
      
-.Tech Stack
+#Tech Stack
    - Python
    - Django
    - SQLite
