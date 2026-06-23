@@ -1,0 +1,25 @@
+{% extends 'hotel/base.html' %}
+
+{% block content %}
+<h2>available rooms</h2>
+<table class="table table-dark table-striped mt-3">
+    <thead>
+        <tr>
+            <th>Room Number</th>
+            <th>Type</th>
+            <th>Price</th>
+            <th>Available?</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for room in rooms %}
+        <tr>
+            <td>{{ room.number }}</td>
+            <td>{{ room.type }}</td>
+            <td>{{ room.price }} EGP</td>
+            <td>{% if room.is_available %}✅{% else %}❌{% endif %}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
