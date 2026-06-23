@@ -10,7 +10,7 @@
    - Room availability tracking
 
      
-#Tech Stack
+# Tech Stack
    - Python
    - Django
    - SQLite
